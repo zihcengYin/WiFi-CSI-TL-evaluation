@@ -1,0 +1,12 @@
+指令集
+监督学习
+python run.py --dataset NTU-Fi-HumanID --model CNN+biLSTM
+
+迁移学习
+预训练
+python run.py --dataset NTU-Fi_HAR --model CNN+biLSTM --phase pretrain
+微调
+python run.py --dataset NTU-Fi-HumanID --model CNN+biLSTM --phase finetune
+评估
+python run.py --dataset NTU-Fi-HumanID --model CNN+biLSTM --phase test
+
